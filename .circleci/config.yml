@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:  
     docker: 
-      - image: rowanto/docker-java8-mvn-nodejs-npm
+      - image: atlassianlabs/docker-node-jdk-chrome-firefox
       
     steps:
       - checkout
