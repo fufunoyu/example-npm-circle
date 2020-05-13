@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:  
     docker: 
-      - image: timbru31/java-node
+      - image: rowanto/docker-java8-mvn-nodejs-npm
       
     steps:
       - checkout
