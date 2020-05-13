@@ -4,11 +4,8 @@ jobs:
   build:  
     docker: 
       - image: timbru31/java-node
-
-    
+      
     steps:
-    
-      steps:
       - checkout
       - run: npm install -q
       - snyk/scan
